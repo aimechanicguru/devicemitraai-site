@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="DeviceMitra AI helps users collect repair evidence for AC, fan, and motor-bike problems and turn it into an AI-assisted diagnosis report, repair guidance, tools list, and safety-aware next step."
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://devicemitraai.com/" />
+    <meta property="og:title" content="DeviceMitra AI | AI-assisted repair diagnosis support" />
+    <meta property="og:description" content="Collect evidence, understand likely faults, see safety boundaries, and prepare a clearer technician handoff." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://devicemitraai.com/" />
+    <meta property="og:image" content="https://devicemitraai.com/assets/app-home-mockup.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>DeviceMitra AI | AI Diagnosis Report, Repair Guidance and Tools List</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="./script.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://devicemitraai.com/#organization",
+            "name": "DeviceMitra AI",
+            "url": "https://devicemitraai.com/",
+            "email": "devicemitraai@gmail.com",
+            "logo": "https://devicemitraai.com/assets/devicemitra-logo.png"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://devicemitraai.com/#website",
+            "url": "https://devicemitraai.com/",
+            "name": "DeviceMitra AI",
+            "publisher": { "@id": "https://devicemitraai.com/#organization" }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://devicemitraai.com/#webpage",
+            "url": "https://devicemitraai.com/",
+            "name": "DeviceMitra AI | AI Diagnosis Report, Repair Guidance and Tools List",
+            "isPartOf": { "@id": "https://devicemitraai.com/#website" },
+            "about": { "@id": "https://devicemitraai.com/#organization" },
+            "description": "DeviceMitra AI helps users collect repair evidence for AC, fan, and motor-bike problems and turn it into an AI-assisted diagnosis report, repair guidance, tools list, and safety-aware next step."
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand-link" href="#top" aria-label="DeviceMitra AI home">
+          <img src="./assets/devicemitra-logo.png" alt="" class="brand-mark" />
+          <span>DeviceMitra AI</span>
+        </a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu">
+          <i data-lucide="menu" aria-hidden="true"></i>
+          <span class="sr-only">Open menu</span>
+        </button>
+        <div class="nav-links" id="mobile-menu">
+          <a href="#devices">Devices</a>
+          <a href="./guides/">Guides</a>
+          <a href="#outputs">AI Outputs</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#safety">Safety</a>
+          <a href="#faq">FAQ</a>
+          <a class="nav-cta" href="#early-access">Request early access</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero-section">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">AI-assisted diagnosis for AC, fan and motor bike</p>
+            <h1>Find the likely fault before you repair or call a technician.</h1>
+            <p class="hero-lede">
+              DeviceMitra AI helps users collect device evidence and turn it into an AI-assisted
+              diagnosis report, repair guidance, troubleshooting tools list, and an S0-S3 safety-aware next step.
+            </p>
+            <div class="hero-actions">
+              <a class="button secondary" href="./guides/" data-track="cta_explore_guides">
+                Explore device problems
+                <i data-lucide="search" aria-hidden="true"></i>
+              </a>
+              <a class="button primary" href="#early-access">
+                Request early access
+                <i data-lucide="arrow-right" aria-hidden="true"></i>
+              </a>
+              <a class="button secondary" href="#workflow">
+                See how diagnosis works
+                <i data-lucide="route" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div class="hero-proof" aria-label="Product highlights">
+              <span><i data-lucide="file-check-2" aria-hidden="true"></i> AI diagnosis report</span>
+              <span><i data-lucide="wrench" aria-hidden="true"></i> Repair guidance</span>
+              <span><i data-lucide="toolbox" aria-hidden="true"></i> Tools list</span>
+              <span><i data-lucide="shield-check" aria-hidden="true"></i> Safety gates</span>
+            </div>
+            <p class="hero-disclaimer">
+              Early-access product explanation. DeviceMitra supports repair decisions and technician handoff;
+              it does not replace physical inspection by a qualified technician, electrician, or mechanic.
+            </p>
+          </div>
+
+          <div class="hero-visual" aria-label="DeviceMitra app preview">
+            <div class="phone-frame">
+              <img src="./assets/app-home-mockup.png" alt="DeviceMitra AI app home screen" />
+            </div>
+            <div class="floating-card card-a">
+              <span class="status-dot"></span>
+              Evidence ready
+            </div>
+            <div class="floating-card card-b">
+              <i data-lucide="triangle-alert" aria-hidden="true"></i>
+              Safety checked
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Key capabilities">
+        <div class="trust-item">
+          <strong>8-step</strong>
+          <span>guided diagnosis</span>
+        </div>
+        <div class="trust-item">
+          <strong>3+</strong>
+          <span>device families now, more are planned</span>
+        </div>
+        <div class="trust-item">
+          <strong>S0-S3</strong>
+          <span>safety classification</span>
+        </div>
+        <div class="trust-item">
+          <strong>Role-aware</strong>
+          <span>home, technician, electrician</span>
+        </div>
+      </section>
+
+      <section class="section" id="devices">
+        <div class="section-heading">
+          <p class="eyebrow">Built around real device evidence</p>
+          <h2>Start from the machine, not a generic chat box.</h2>
+          <p>
+            DeviceMitra asks for the right observations by device type, so users capture the evidence
+            that actually changes the diagnosis.
+          </p>
+        </div>
+        <div class="device-grid">
+          <article class="device-card blue">
+            <img class="device-unit-image" src="./assets/device-ac-full.png" alt="Wall-mounted air conditioner" />
+            <div>
+              <h3>Air conditioners</h3>
+              <p>Filter, outdoor unit, wiring, display codes, water leakage, cooling faults, and MCB trips.</p>
+              <a class="text-link" href="./guides/ac-trips-mcb-when-switched-on/" data-track="device_ac_guide">AC MCB trip guide</a>
+            </div>
+          </article>
+          <article class="device-card amber">
+            <img src="./assets/device-fan-card.png" alt="Fan diagnosis card" />
+            <div>
+              <h3>Fans</h3>
+              <p>Wobble, noise, wiring, capacitor symptoms, loose mounts, blades, and regulator clues.</p>
+              <a class="text-link" href="./guides/ceiling-fan-humming-not-rotating/" data-track="device_fan_guide">Fan humming guide</a>
+            </div>
+          </article>
+          <article class="device-card green">
+            <img src="./assets/device-bike-card.png" alt="Motor bike diagnosis card" />
+            <div>
+              <h3>Motor bikes</h3>
+              <p>Not starting, warning lights, fuel leaks, brakes, tyres, battery, chain, and ride safety.</p>
+              <a class="text-link" href="./guides/bike-self-start-clicks-no-crank/" data-track="device_bike_guide">Bike self-start guide</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section outputs-section" id="outputs">
+        <div class="outputs-layout">
+          <div class="outputs-copy">
+            <p class="eyebrow">What DeviceMitra AI generates</p>
+            <h2>Three AI outputs for clearer repair decisions.</h2>
+            <p>
+              DeviceMitra AI is designed to convert device symptoms, photos, safety checks, and answers
+              into an AI-assisted diagnosis report, repair guidance, and troubleshooting tools list.
+            </p>
+            <div class="output-preview" aria-label="Example AI output preview">
+              <div class="preview-header">
+                <span>Sample AC case</span>
+                <strong>Illustrative preview</strong>
+              </div>
+              <dl>
+                <div>
+                  <dt>Illustrative possible fault</dt>
+                  <dd>Airflow restriction or dirty filter appears more consistent with the reported evidence</dd>
+                </div>
+                <div>
+                  <dt>Repair guidance</dt>
+                  <dd>Clean filter, inspect outdoor unit, avoid electrical checks</dd>
+                </div>
+                <div>
+                  <dt>Tools</dt>
+                  <dd>Soft brush, flashlight, gloves, screwdriver</dd>
+                </div>
+              </dl>
+              <p class="preview-note">
+                Sample only. A real report depends on the evidence provided and may conclude that more inspection is needed.
+              </p>
+            </div>
+          </div>
+
+          <div class="outputs-grid">
+            <article class="output-card output-green">
+              <div class="output-icon">
+                <i data-lucide="file-search" aria-hidden="true"></i>
+              </div>
+              <p class="output-kicker">AI Diagnosis Report</p>
+              <h3>Know the main problem in your device</h3>
+              <p>
+                In early access, the app is designed to analyze the complaint, photos, safety signals,
+                and answers to prepare a report with possible fault categories, evidence, and what still needs checking.
+              </p>
+              <ul>
+                <li>Likely fault categories</li>
+                <li>Evidence summary</li>
+                <li>Safety classification</li>
+                <li>Technician handoff summary</li>
+              </ul>
+            </article>
+
+            <article class="output-card output-safety">
+              <div class="output-icon">
+                <i data-lucide="shield-alert" aria-hidden="true"></i>
+              </div>
+              <p class="output-kicker">S0-S3 Safety Classification</p>
+              <h3>See when to pause and get skilled help</h3>
+              <p>
+                The report communicates caution, operating limits, and stop conditions so a likely fault never
+                becomes a reason to take an unsafe action.
+              </p>
+              <ul>
+                <li>Plain-language safety level</li>
+                <li>Household vs technician boundaries</li>
+                <li>Stop conditions before risky work</li>
+                <li>Clear next step</li>
+              </ul>
+            </article>
+
+            <article class="output-card output-blue">
+              <div class="output-icon">
+                <i data-lucide="wrench" aria-hidden="true"></i>
+              </div>
+              <p class="output-kicker">AI Repair Guidance</p>
+              <h3>Get repair guidance for the discovered problem</h3>
+              <p>
+                Once a possible fault direction is identified, DeviceMitra AI is designed to generate
+                guidance that separates safe observations from technician-only work.
+              </p>
+              <ul>
+                <li>Step-by-step repair direction</li>
+                <li>Safe vs technician-only actions</li>
+                <li>Warnings before risky work</li>
+                <li>Next-best troubleshooting checks</li>
+              </ul>
+            </article>
+
+            <article class="output-card output-amber">
+              <div class="output-icon">
+                <i data-lucide="toolbox" aria-hidden="true"></i>
+              </div>
+              <p class="output-kicker">AI Tools List</p>
+              <h3>Know which tools are needed before troubleshooting</h3>
+              <p>
+                DeviceMitra AI is designed to prepare a tools and materials list for the possible fault
+                so users and technicians know what may be required before troubleshooting.
+              </p>
+              <ul>
+                <li>Required tools</li>
+                <li>Optional tools</li>
+                <li>Technician-only tools</li>
+                <li>Safety notes for tool use</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section sample-report-section" id="sample-report">
+        <div class="section-heading">
+          <p class="eyebrow">Illustrative report preview</p>
+          <h2>A clearer handoff before anyone opens the device.</h2>
+          <p>
+            The public site shows educational examples. A real early-access report depends on the user's
+            device, symptom, available evidence, safety answers, and whether more physical inspection is needed.
+          </p>
+        </div>
+        <div class="report-grid">
+          <article class="report-module">
+            <span class="module-label">Device and symptom</span>
+            <h3>AC is on but not cooling properly</h3>
+            <p>Reported cooling is weak, filter photo is available, and no electrical burning smell is reported.</p>
+          </article>
+          <article class="report-module">
+            <span class="module-label">Possible fault direction</span>
+            <h3>Airflow restriction appears more consistent</h3>
+            <p>Evidence may support filter blockage or airflow restriction, while refrigerant or compressor checks remain technician-only.</p>
+          </article>
+          <article class="report-module">
+            <span class="module-label">Missing evidence</span>
+            <h3>Outdoor unit behavior still matters</h3>
+            <p>The report asks whether the outdoor fan runs, whether error codes appear, and when the AC was last serviced.</p>
+          </article>
+          <article class="report-module">
+            <span class="module-label">Tools and next step</span>
+            <h3>Prepare safe observations first</h3>
+            <p>Soft brush, gloves, flashlight, and phone camera may help. Electrical testing remains for a qualified technician.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section guide-section" id="guides">
+        <div class="section-heading">
+          <p class="eyebrow">Repair search guides</p>
+          <h2>Start with specific symptoms people actually search for.</h2>
+          <p>
+            Each guide leads with safety, then explains safe observations, likely fault directions,
+            missing evidence, technician-only checks, and what to prepare before requesting early access.
+          </p>
+        </div>
+        <div class="guide-grid">
+          <a class="guide-card" href="./guides/ac-trips-mcb-when-switched-on/" data-track="guide_card_ac_mcb">
+            <span>Air conditioner</span>
+            <h3>AC trips MCB when switched on</h3>
+            <p>Stop-use conditions, safe evidence to record, possible electrical fault directions, and technician preparation.</p>
+          </a>
+          <a class="guide-card" href="./guides/ceiling-fan-humming-not-rotating/" data-track="guide_card_fan_hum">
+            <span>Ceiling fan</span>
+            <h3>Fan humming but not rotating</h3>
+            <p>Safe observations, capacitor and motor clues, household limits, and electrician-only checks.</p>
+          </a>
+          <a class="guide-card" href="./guides/bike-self-start-clicks-no-crank/" data-track="guide_card_bike_start">
+            <span>Motor bike</span>
+            <h3>Self-start clicks but engine does not crank</h3>
+            <p>Battery, starter, wiring, and safety clues to collect before workshop inspection.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section workflow-section" id="workflow">
+        <div class="workflow-layout">
+          <div class="section-heading left">
+            <p class="eyebrow">The app workflow</p>
+            <h2>From complaint to safety-checked report in eight focused steps.</h2>
+            <p>
+              The flow behaves like a careful repair intake: collect facts, verify risk, ask only useful
+              questions, then produce a report a household user or technician can act on.
+            </p>
+          </div>
+          <div class="workflow-panel">
+            <div class="step-list" role="tablist" aria-label="Diagnosis workflow steps">
+              <button class="step-button is-active" type="button" data-step="0" role="tab" aria-selected="true">
+                <span>1</span> Device
+              </button>
+              <button class="step-button" type="button" data-step="1" role="tab" aria-selected="false">
+                <span>2</span> Complaint
+              </button>
+              <button class="step-button" type="button" data-step="2" role="tab" aria-selected="false">
+                <span>3</span> Photos
+              </button>
+              <button class="step-button" type="button" data-step="3" role="tab" aria-selected="false">
+                <span>4</span> Safety
+              </button>
+              <button class="step-button" type="button" data-step="4" role="tab" aria-selected="false">
+                <span>5</span> Questions
+              </button>
+              <button class="step-button" type="button" data-step="5" role="tab" aria-selected="false">
+                <span>6</span> Sound & video (planned)
+              </button>
+              <button class="step-button" type="button" data-step="6" role="tab" aria-selected="false">
+                <span>7</span> Measurements
+              </button>
+              <button class="step-button" type="button" data-step="7" role="tab" aria-selected="false">
+                <span>8</span> Review
+              </button>
+            </div>
+            <div class="step-detail" aria-live="polite">
+              <div class="step-icon">
+                <i data-lucide="settings-2" aria-hidden="true"></i>
+              </div>
+              <p class="step-kicker">Step 1</p>
+              <h3 data-step-title>Choose the device</h3>
+              <p data-step-copy>
+                Select AC, fan, or motor bike so DeviceMitra can load the right
+                evidence rules and safety checks.
+              </p>
+              <ul data-step-points>
+                <li>Device-specific fault dictionaries</li>
+                <li>Photo context priorities</li>
+                <li>Safety lexicon matched to the device</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section capabilities-section">
+        <div class="section-heading">
+          <p class="eyebrow">Why it beats a basic repair guide</p>
+            <h2>More useful than a generic list of repair tips.</h2>
+        </div>
+        <div class="capability-grid">
+          <article class="capability-card">
+            <i data-lucide="scan-search" aria-hidden="true"></i>
+            <h3>Device-specific questions</h3>
+            <p>Starts with the machine and symptom so the next questions match the fault groups that matter.</p>
+          </article>
+          <article class="capability-card">
+            <i data-lucide="list-checks" aria-hidden="true"></i>
+            <h3>Evidence with context</h3>
+            <p>Organises observations, missing information, and possible fault directions in one report.</p>
+          </article>
+          <article class="capability-card">
+            <i data-lucide="gauge" aria-hidden="true"></i>
+            <h3>Uncertainty made visible</h3>
+            <p>Shows what a likely fault does and does not confirm, helping users choose a clearer next step.</p>
+          </article>
+          <article class="capability-card">
+            <i data-lucide="users" aria-hidden="true"></i>
+            <h3>Role-aware guidance</h3>
+            <p>Separates household observations from technician-only checks for users, technicians, and service teams.</p>
+          </article>
+          <article class="capability-card">
+            <i data-lucide="clipboard-check" aria-hidden="true"></i>
+            <h3>Repair preparation</h3>
+            <p>Connects the likely fault to repair direction, tools information, and safety boundaries.</p>
+          </article>
+          <article class="capability-card">
+            <i data-lucide="search-check" aria-hidden="true"></i>
+            <h3>Designed for better decisions</h3>
+            <p>The public site explains the product honestly; the full diagnosis experience is being developed for early access.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section safety-section" id="safety">
+        <div class="safety-card">
+          <div class="safety-copy">
+            <p class="eyebrow danger">Safety-first diagnosis</p>
+            <h2>When the evidence is risky, the app changes the advice.</h2>
+            <p>
+              DeviceMitra separates safe household observations from technician-only actions. If it sees
+              smoke, shocks, fuel leakage, exposed wiring, battery swelling, loose mounting, or brake risk,
+              the report is designed to move users away from unsafe troubleshooting.
+            </p>
+            <div class="safety-actions">
+              <span><i data-lucide="ban" aria-hidden="true"></i> Blocks unsafe actions</span>
+              <span><i data-lucide="user-cog" aria-hidden="true"></i> Technician framing</span>
+              <span><i data-lucide="share-2" aria-hidden="true"></i> Shareable report</span>
+            </div>
+          </div>
+          <div class="report-preview" aria-label="Example safety report preview">
+            <div class="report-top">
+              <span class="severity">S3 Danger</span>
+              <span>Report ready</span>
+            </div>
+            <h3>Professional inspection required</h3>
+            <p>Evidence suggests water near electronics and a possible wiring hazard. Keep the device off.</p>
+            <ul>
+              <li>Do not restart the unit.</li>
+              <li>Share this report with a qualified technician.</li>
+              <li>Technician should inspect isolation and wiring first.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section app-preview-section">
+        <div class="preview-layout">
+          <img src="./assets/devicemitra-guide-hero.png" alt="DeviceMitra guide character holding a tablet" />
+          <div>
+            <p class="eyebrow">Designed for home users and repair pros</p>
+            <h2>One structured case can make the next conversation clearer.</h2>
+            <p>
+              DeviceMitra AI is intended to help a home user describe the problem, help a technician see what
+              remains to check, and help a service business prepare a more consistent intake.
+            </p>
+            <div class="mini-feature-list">
+              <span><i data-lucide="file-text" aria-hidden="true"></i> Structured report</span>
+              <span><i data-lucide="shield-check" aria-hidden="true"></i> Safety boundaries</span>
+              <span><i data-lucide="messages-square" aria-hidden="true"></i> Clearer handoff</span>
+            </div>
+            <p class="small-note"><strong>Current status:</strong> The website is an early-access product explanation. It does not currently book technicians, dispatch jobs, or provide a live repair marketplace.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq-section" id="faq">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>What users need to know before trying DeviceMitra.</h2>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary>Which devices does DeviceMitra AI support?</summary>
+            <p>The current product focus is ACs, fans, and motor bikes. Additional device categories may be added later.</p>
+          </details>
+          <details>
+            <summary>Can a household user follow every repair step?</summary>
+            <p>No. The app separates safe observations from technician-only checks and uses safety gates for risky evidence.</p>
+          </details>
+          <details>
+            <summary>What evidence can the app use today?</summary>
+            <p>Guided complaint details, questions, available photos, measurements already recorded or supplied by a professional, safety responses, and device-specific context. Sound and video analysis are planned, not currently available.</p>
+          </details>
+          <details>
+            <summary>Does it create a technician-ready report?</summary>
+            <p>In early access, DeviceMitra is designed to create a technician handoff report with possible fault categories, missing evidence, safety class, household-safe observations, technician checks, and shareable summaries.</p>
+          </details>
+          <details>
+            <summary>Does the public website run the full diagnosis?</summary>
+            <p>No. The public website explains the product and accepts early-access requests. It does not currently run the complete diagnosis workflow.</p>
+          </details>
+          <details>
+            <summary>Will DeviceMitra connect me with a technician?</summary>
+            <p>No live technician marketplace, booking, dispatch, or geographic service network is currently offered through this website.</p>
+          </details>
+          <details>
+            <summary>What happens when I request early access?</summary>
+            <p>A prepared email draft opens addressed to devicemitraai@gmail.com. Nothing is sent until you review and send it yourself.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="cta-section" id="early-access">
+        <div class="cta-card">
+          <p class="eyebrow">Early access</p>
+          <h2>Interested in a more structured way to diagnose device problems?</h2>
+          <p>Tell us whether you are a home user, technician, electrician, or service business and which devices matter most to you.</p>
+          <form class="signup-form" novalidate>
+            <label class="sr-only" for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="Enter your email" autocomplete="email" />
+            <button class="button primary" type="submit">
+              Request early access by email
+              <i data-lucide="send" aria-hidden="true"></i>
+            </button>
+          </form>
+          <p class="cta-note">This opens a prepared email draft. Your request is sent only after you review and send it.</p>
+          <p class="cta-note">DeviceMitra supports repair decisions and technician handoff; it does not replace physical inspection.</p>
+          <p class="form-message" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand-link" href="#top">
+          <img src="./assets/devicemitra-logo.png" alt="" class="brand-mark" />
+          <span>DeviceMitra AI</span>
+        </a>
+        <p>Safety-aware diagnostic assistant for ACs, fans, and motor bikes. Educational guidance is not a confirmed physical diagnosis.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#devices">Devices</a>
+        <a href="./guides/">Guides</a>
+        <a href="#outputs">AI Outputs</a>
+        <a href="#sample-report">Sample Report</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#safety">Safety</a>
+        <a href="#faq">FAQ</a>
+        <a href="./delete-account/">Delete Account</a>
+        <a href="mailto:devicemitraai@gmail.com">Contact</a>
+      </div>
+    </footer>
+  </body>
+</html>

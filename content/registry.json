@@ -1,0 +1,131 @@
+{
+  "name": "DeviceMitra AI Repair Intelligence Registry",
+  "version": "2026-07-20",
+  "purpose": "Single source of truth for public guide pages, sample report previews, safety copy, and early-access CTAs.",
+  "publishingStates": [
+    "idea",
+    "drafted",
+    "technical_review",
+    "safety_review",
+    "claims_review",
+    "approved",
+    "published",
+    "monitored",
+    "revised_or_retired"
+  ],
+  "rules": [
+    "Safety appears before fault explanation.",
+    "Possible causes are not confirmed diagnoses.",
+    "Household users are not instructed to perform hazardous tests.",
+    "Electrical, refrigerant, fuel, brake, and structural risks escalate conservatively.",
+    "No page claims expert review until a real reviewer is recorded.",
+    "No public claim exceeds the currently usable product capability."
+  ],
+  "guides": [
+    {
+      "slug": "ac-trips-mcb-when-switched-on",
+      "url": "https://devicemitraai.com/guides/ac-trips-mcb-when-switched-on/",
+      "device": "Air conditioner",
+      "symptom": "AC trips MCB when switched on",
+      "publicStatus": "published",
+      "capabilityStatus": "educational guide with illustrative early-access report preview",
+      "safetyClass": "S2-S3",
+      "safeObservations": [
+        "Trip timing",
+        "Outdoor-unit behavior",
+        "Burning smell or water near wiring",
+        "Recent service history",
+        "Shared circuit clues"
+      ],
+      "possibleFaults": [
+        "Compressor or outdoor-unit fault",
+        "Short circuit or insulation problem",
+        "Overload or weak protection device"
+      ],
+      "technicianOnlyChecks": [
+        "Electrical isolation testing",
+        "Compressor and capacitor checks",
+        "Contactor and wiring inspection",
+        "MCB rating and circuit inspection"
+      ],
+      "prohibitedInstructions": [
+        "Bypass MCB",
+        "Upgrade MCB rating without inspection",
+        "Open electrical panels as household user",
+        "Repeatedly reset after trips"
+      ],
+      "reviewStatus": "needs technical and safety review before expert-review claim",
+      "lastReviewed": null
+    },
+    {
+      "slug": "ceiling-fan-humming-not-rotating",
+      "url": "https://devicemitraai.com/guides/ceiling-fan-humming-not-rotating/",
+      "device": "Ceiling fan",
+      "symptom": "Fan humming but not rotating",
+      "publicStatus": "published",
+      "capabilityStatus": "educational guide with illustrative early-access report preview",
+      "safetyClass": "S1-S3",
+      "safeObservations": [
+        "Speed setting behavior",
+        "Blade movement after power is off",
+        "Regulator heat or smell",
+        "Recent cleaning or rewiring",
+        "Mount wobble or looseness"
+      ],
+      "possibleFaults": [
+        "Weak or failed capacitor",
+        "Mechanical resistance",
+        "Regulator or wiring issue"
+      ],
+      "technicianOnlyChecks": [
+        "Capacitor replacement",
+        "Regulator inspection",
+        "Wiring and isolation checks",
+        "Motor winding inspection"
+      ],
+      "prohibitedInstructions": [
+        "Open fan canopy with power connected",
+        "Open regulator with power connected",
+        "Replace capacitor without safe isolation",
+        "Continue using fan with burning smell or loose mount"
+      ],
+      "reviewStatus": "needs technical and safety review before expert-review claim",
+      "lastReviewed": null
+    },
+    {
+      "slug": "bike-self-start-clicks-no-crank",
+      "url": "https://devicemitraai.com/guides/bike-self-start-clicks-no-crank/",
+      "device": "Motor bike",
+      "symptom": "Self-start clicks but engine does not crank",
+      "publicStatus": "published",
+      "capabilityStatus": "educational guide with illustrative early-access report preview",
+      "safetyClass": "S1-S2",
+      "safeObservations": [
+        "Click pattern",
+        "Headlamp or dashboard dimming",
+        "Battery terminal condition",
+        "Parking duration",
+        "Kick-start behavior where available"
+      ],
+      "possibleFaults": [
+        "Weak or discharged battery",
+        "Loose or corroded terminals",
+        "Starter relay or starter motor issue"
+      ],
+      "technicianOnlyChecks": [
+        "Battery voltage and load test",
+        "Relay testing",
+        "Starter motor inspection",
+        "Grounding and wiring inspection"
+      ],
+      "prohibitedInstructions": [
+        "Short battery terminals",
+        "Bypass starter relay",
+        "Repeated cranking until wiring heats",
+        "Ride with battery leak, fuel smell, smoke, or burning smell"
+      ],
+      "reviewStatus": "needs technical and safety review before expert-review claim",
+      "lastReviewed": null
+    }
+  ]
+}
